@@ -3,6 +3,11 @@ Lock-Free Object Allocator with QSBR Memory Reclamation
 
 ## Benchmarks
 
+OS: Windows 11
+CPU: Ryzen 7 6800H
+RAM: 32gb ddr5 4800MHz
+Compiler: MSVC x64 /std:c++20 /O2 
+
 ### Single-threaded
 | Method             | Time (μs) | Speedup |
 |-------------------|-----------|---------|
